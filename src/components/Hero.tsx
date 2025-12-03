@@ -64,7 +64,9 @@ const Hero = () => {
               GitHub <FaGithub size={20} className="ml-2" />
             </a>
             <a
-              href="mailto:henrystevencortez4566@gmail.com"
+              href="https://www.linkedin.com/in/henry-steven-cortez-25804b3a0"
+              target="_blank"
+              rel="noreferrer"
               className="group text-white w-fit px-6 py-3 my-2 flex items-center rounded-md bg-gradient-to-r from-blue-600 to-indigo-600 cursor-pointer hover:scale-105 duration-300 shadow-lg shadow-blue-600/50"
             >
               Contact Me <FaLinkedin size={20} className="ml-2" />
@@ -88,7 +90,11 @@ const Hero = () => {
           {/* Placeholder for profile image or 3D element */}
           <div className="relative w-64 h-64 md:w-96 md:h-96 rounded-full bg-gradient-to-tr from-secondary to-accent p-1 animate-pulse">
              <div className="w-full h-full rounded-full bg-primary flex items-center justify-center overflow-hidden">
-                <span className="text-6xl">👨‍💻</span>
+                <img 
+                  src="/my.jpeg" 
+                  alt="Henry Cortez" 
+                  className="w-full h-full object-cover object-center"
+                />
              </div>
           </div>
         </motion.div>

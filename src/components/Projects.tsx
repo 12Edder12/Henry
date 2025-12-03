@@ -5,39 +5,39 @@ const Projects = () => {
   const portfolios = [
     {
       id: 1,
-      title: "E-commerce Dashboard",
-      description: "Panel de administración completo con gráficos y gestión de usuarios.",
-      tech: ["React", "Tailwind", "Chart.js"],
-      src: "https://via.placeholder.com/400x300?text=E-commerce+Dashboard", // Replace with real image
+      title: "Electronic Billing System",
+      description: "A full-stack application that allows you to issue electronic invoices to clients and suppliers.",
+      tech: ["Java", "Spring Boot", "HTML", "CSS", "JavaScript"],
+      src: "/factura.png", // Replace with real image
       demo: "#",
-      code: "#",
+      code: "https://github.com/HenryCortez/facturacion_servicios",
     },
     {
       id: 2,
-      title: "App del Clima",
-      description: "Aplicación de clima en tiempo real con geolocalización.",
-      tech: ["React", "OpenWeatherMap", "CSS Modules"],
-      src: "https://via.placeholder.com/400x300?text=Weather+App", // Replace with real image
+      title: "Travel and Parcel System",
+      description: "Business logic for Travel and Parcel System.",
+      tech: ["NestJs", "Prisma", "TypeScript", "PostgreSQL", "Docker", "Docker Compose"],
+      src: "/Viajes.png", // Replace wit|h real image
       demo: "#",
-      code: "#",
+      code: "https://github.com/HenryCortez/Viajes-y-encominedas-github",
     },
     {
       id: 3,
-      title: "Task Manager",
-      description: "Gestor de tareas tipo Kanban con drag and drop.",
-      tech: ["React", "Redux", "dnd-kit"],
-      src: "https://via.placeholder.com/400x300?text=Task+Manager", // Replace with real image
-      demo: "#",
-      code: "#",
+      title: "Water Board System (Private)",
+      description: "System for the water board that allows issuing electronic invoices to clients and suppliers.",
+      tech: ["NestJs", "Prisma", "TypeScript", "PostgreSQL", "Docker", "Docker Compose"],
+      src: "/agua.png", // Replace with real image
+      demo: "https://junta-de-agua.vercel.app/login",
+      code: "https://github.com/HenryCortez/JuntaAgua",
     },
     {
       id: 4,
-      title: "Chat en Tiempo Real",
-      description: "Aplicación de mensajería instantánea con salas privadas.",
-      tech: ["React", "Socket.io", "Node.js"],
-      src: "https://via.placeholder.com/400x300?text=Chat+App", // Replace with real image
+      title: "Attendance registration system",
+      description: "Employee attendance record with facial recognition.",
+      tech: ["Java", "Java Swing", "MySQL"],
+      src: "/facial.png", // Replace with real image
       demo: "#",
-      code: "#",
+      code: "https://github.com/HenryCortez/Proyecto_Visuales",
     },
   ];
 
@@ -49,9 +49,9 @@ const Projects = () => {
       <div className="max-w-screen-lg p-4 mx-auto flex flex-col justify-center w-full h-full">
         <div className="pb-8">
           <p className="text-4xl font-bold inline border-b-4 border-gray-500">
-            Proyectos
+            Projects
           </p>
-          <p className="py-6">Mira algunos de mis trabajos recientes</p>
+          <p className="py-6">Here are some of my projects</p>
         </div>
 
         <div className="grid sm:grid-cols-2 md:grid-cols-2 gap-8 px-12 sm:px-0">

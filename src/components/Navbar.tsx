@@ -20,10 +20,10 @@ const Navbar = () => {
   }, []);
 
   const links = [
-    { id: 1, link: "home", text: "Inicio" },
-    { id: 2, link: "skills", text: "Habilidades" },
-    { id: 3, link: "projects", text: "Proyectos" },
-    { id: 4, link: "contact", text: "Contacto" },
+    { id: 1, link: "home", text: "Home" },
+    { id: 2, link: "skills", text: "Skills" },
+    { id: 3, link: "projects", text: "Projects" },
+    { id: 4, link: "contact", text: "Contact" },
   ];
 
   return (
@@ -34,7 +34,7 @@ const Navbar = () => {
     >
       <div>
         <h1 className="text-4xl font-bold font-signature ml-2 cursor-pointer hover:text-secondary transition-colors duration-300">
-          Portafolio
+          Portfolio
         </h1>
       </div>
 
